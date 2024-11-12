@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(131, 194, 234);
+}
+
+button{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    background-color: rgb(131, 194, 234);
+    color: white;
+    padding: 3vw;
+    width: 100%;
+    overflow: hidden;
+}
+
+header button{
+    padding: 1.25vw;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+main form{
+    display: none;
+    background-color: rgb(131, 194, 234);
+    color: white;
+    padding: 2vw;
+}
+
+#container-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5vw;
+    align-items: center;
+}
+
+form button{
+    padding: 1vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    background-color:blue;
+}
+
+form input{
+    padding: 0.8vw;
+    border: none;
+    border-radius: 8px;
+}
+
+#msgError {
+    display: none;
+    margin-top: 2vw;
+    text-align: center;
+    padding: 2vw;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+section{
+    display: none;
+    background-color: rgb(131, 194, 234);
+}
+
+section ul{
+font-style: italic;
+}
+
+section li{
+    list-style-type: none;
+    display: flex;
+    justify-content: first baseline;
+    gap: 4vw;
+    align-items: center;
+    padding: 2vw;
+    border-top: 1px solid rgba(0, 0, 0, 0.123);
+    
+
+}
+
+section button{
+    padding: 1vw;
+    border: none;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+
+.available{
+    background-color: rgba(20, 57, 99, 0.652);
+}
+
+.nonAvailable{
+    background-color: rgb(255, 0, 0);
+}
+
+.marked{
+    background-color:rgba(20, 57, 99, 0.652) ;
+    text-decoration: line-through;
+}
+
+
+
+
